@@ -1,2 +1,2 @@
 # Crystallizer
-Minecraf Mod
+Minecraft Mod
