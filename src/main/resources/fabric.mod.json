@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "crystallizer",
+  "version": "${version}",
+  "name": "crystallizer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/crystallizer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.illencx.crystallizer.client.CrystallizerClient"
+    ],
+    "main": [
+      "dev.illencx.crystallizer.Crystallizer"
+    ]
+  },
+  "mixins": [
+    "crystallizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
