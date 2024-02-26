@@ -10,9 +10,6 @@
   "icon": "assets/crystallizer/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "dev.illencx.crystallizer.client.CrystallizerClient"
-    ],
     "main": [
       "dev.illencx.crystallizer.Crystallizer"
     ]
