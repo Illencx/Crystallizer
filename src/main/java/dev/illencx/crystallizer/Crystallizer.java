@@ -22,9 +22,7 @@ public class Crystallizer implements ModInitializer {
     private static final ItemGroup ITEM_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(NEWITEM))
             .displayName(Text.of("crystallizer"))
-            .entries((context, entries) -> {
-                entries.add(NEWITEM);
-            })
+            .entries((context, entries) -> entries.add(NEWITEM))
             .build();
     @Override
     public void onInitialize() {
